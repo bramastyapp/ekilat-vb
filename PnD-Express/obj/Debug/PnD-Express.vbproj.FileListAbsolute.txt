@@ -1,0 +1,16 @@
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\PnD-Express.exe.config
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\PnD-Express.exe
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\PnD-Express.pdb
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\PnD-Express.xml
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD-Express.vbprojAssemblyReference.cache
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD_Express.CekData.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD_Express.Dashboard.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD_Express.Login.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD_Express.Resources.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD_Express.Pengiriman.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD_Express.UpdatePaket.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD-Express.vbproj.GenerateResource.cache
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD-Express.vbproj.CoreCompileInputs.cache
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD-Express.exe
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD-Express.xml
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\PnD-Express.pdb

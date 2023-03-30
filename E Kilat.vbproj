@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B54536E3-12A6-415C-A528-56B0795F8375}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>EKilat.My.MyApplication</StartupObject>
+    <RootNamespace>EKilat</RootNamespace>
+    <AssemblyName>EKilat</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>EKilat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>EKilat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ClsCtlCekData.vb" />
+    <Compile Include="Controls\ClsCtlDashboard.vb" />
+    <Compile Include="Controls\ClsCtlEditData.vb" />
+    <Compile Include="Controls\ClsCtlKaryawan.vb" />
+    <Compile Include="Controls\ClsCtlLogin.vb" />
+    <Compile Include="Controls\ClsCtlPendaftaran.vb" />
+    <Compile Include="Controls\ClsCtlPengiriman.vb" />
+    <Compile Include="Controls\ClsCtlUpdateData.vb" />
+    <Compile Include="Controls\InfProses.vb" />
+    <Compile Include="Entity\ClsEntCekData.vb" />
+    <Compile Include="Entity\ClsEntDashboard.vb" />
+    <Compile Include="Entity\ClsEntEditData.vb" />
+    <Compile Include="Entity\ClsEntKaryawan.vb" />
+    <Compile Include="Entity\ClsEntLogin.vb" />
+    <Compile Include="Entity\ClsEntPendaftaran.vb" />
+    <Compile Include="Entity\ClsEntPengiriman.vb" />
+    <Compile Include="Entity\ClsEntUpdateData.vb" />
+    <Compile Include="Form\FormCekData.Designer.vb">
+      <DependentUpon>FormCekData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormCekData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormDashboard.Designer.vb">
+      <DependentUpon>FormDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormEditData.Designer.vb">
+      <DependentUpon>FormEditData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormEditData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormKaryawan.Designer.vb">
+      <DependentUpon>FormKaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormKaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormPendaftaran.Designer.vb">
+      <DependentUpon>FormPendaftaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormPendaftaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormUtama.Designer.vb">
+      <DependentUpon>FormUtama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormPengiriman.Designer.vb">
+      <DependentUpon>FormPengiriman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormPengiriman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\FormUpdateData.Designer.vb">
+      <DependentUpon>FormUpdateData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\FormUpdateData.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Global\ModKoneksiDB.vb" />
+    <Compile Include="Global\ModObjekdanFungsi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form\FormCekData.resx">
+      <DependentUpon>FormCekData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormDashboard.resx">
+      <DependentUpon>FormDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormEditData.resx">
+      <DependentUpon>FormEditData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormKaryawan.resx">
+      <DependentUpon>FormKaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormPendaftaran.resx">
+      <DependentUpon>FormPendaftaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormUtama.resx">
+      <DependentUpon>FormUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormPengiriman.resx">
+      <DependentUpon>FormPengiriman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\FormUpdateData.resx">
+      <DependentUpon>FormUpdateData.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

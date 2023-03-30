@@ -1,0 +1,20 @@
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\E Kilat.vbprojAssemblyReference.cache
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\E Kilat.vbproj.GenerateResource.cache
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\E Kilat.vbproj.CoreCompileInputs.cache
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\EKilat.exe.config
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\EKilat.exe
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\EKilat.pdb
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\bin\Debug\EKilat.xml
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.Resources.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.exe
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.xml
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.pdb
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormUtama.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormCekData.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormDashboard.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormEditData.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormLogin.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormPengiriman.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormUpdateData.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormPendaftaran.resources
+E:\PBD\PnD-Express\PnD-Express\PnD-Express\obj\Debug\EKilat.FormKaryawan.resources
